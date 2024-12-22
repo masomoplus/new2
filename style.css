@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: royalblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 16px;
+    margin: 0;
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 5px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+main {
+    padding: 20px;
+}
+
+.news-section {
+    margin-bottom: 20px;
+}
+
+.news-section h2 {
+    color: royalblue;
+}
+
+.subscription form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+.subscription form label {
+    margin-top: 10px;
+}
+
+.subscription form input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.subscription form button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.subscription form button:hover {
+    background-color: darkblue;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
